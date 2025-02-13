@@ -20,14 +20,14 @@ popup = document.getElementById('popup');
 popupImpossible = document.getElementById('popup-impossible');
 
 function openPopup() {
-    audioGay = new Audio('../audio/gay-meme.mp3');
+    audioGay = new Audio('audio/gay-meme.mp3');
     audioGay.play();
     popup.classList.add('open-popup');
     popup.style.display = "block";
 }
 
 function openPopupImpossible() {
-    audioStraight = new Audio('../audio/straight.mp3');
+    audioStraight = new Audio('audio/straight.mp3');
     audioStraight.play();
     popupImpossible.classList.add('open-popup');
     popupImpossible.style.display = "block";
